@@ -1,0 +1,1 @@
+### mybatis-generater-plugins 自动生成sql文件
