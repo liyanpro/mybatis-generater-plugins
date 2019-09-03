@@ -17,7 +17,7 @@ import java.util.List;
  */
 public class MySqlLimitPlugin extends PluginAdapter {
 
-    @Override
+
     public boolean validate(List<String> list) {
         return true;
     }

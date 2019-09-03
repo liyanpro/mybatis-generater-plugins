@@ -44,7 +44,6 @@ public class BatchUpdatePlugin extends PluginAdapter {
         addBatchUpdateXml(document, introspectedTable);
         return super.sqlMapDocumentGenerated(document, introspectedTable);
     }
-    @Override
     public boolean validate(List<String> warnings) {
         return true;
     }

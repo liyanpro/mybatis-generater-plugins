@@ -45,7 +45,7 @@ public class BatchInsertPlugin extends PluginAdapter {
 //		return super.sqlMapDocumentGenerated(document, introspectedTable);
         return true;
     }
-    @Override
+
     public boolean validate(List<String> warnings) {
         return true;
     }
