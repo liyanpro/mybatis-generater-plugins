@@ -1,6 +1,13 @@
 ### mybatis-generater-plugins 自动生成sql文件
 
-###项目中引用，添加config.xml配置文件
+###项目中引用
+   #### 添加依赖
+        <dependency>
+          <groupId>com.github.liyanpro</groupId>
+          <artifactId>mybatis-generater-plugins</artifactId>
+          <version>1.0.1</version>
+        </dependency>
+   #### 添加config.xml配置文件
 
         <?xml version="1.0" encoding="UTF-8" ?>
         <!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
